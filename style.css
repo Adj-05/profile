@@ -1,0 +1,91 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&family=Poppins:wght@300;400;500;700");
+
+body{
+  background-color: grey;
+  font-family: Times, serif;
+  color: #6D2E46;
+  font-size: 20px;
+  line-height: 1.6;
+}
+
+
+img {
+  overflow-clip-margin: content-box;
+  overflow: clip;
+}
+
+
+h1{
+color: rgb(10, 10, 10);
+font-family: 'Open Sans', sans-serif;
+font-size: 20x;
+line-height: 10x;
+}
+
+
+h2{
+  color: rgb(10, 10, 10);
+  font-family: Arial, sans-serif;
+  font-size:20x;
+  line-height: 10x;
+}
+
+a {
+  color: #3498db;
+  text-decoration: none;
+}
+
+.btn-blue {
+  background-color: #6B72E1;
+  color: white;
+  padding: 15px 20px;
+  border-radius: 4px;
+}
+
+  a:hover {
+    color: black;
+    text-decoration: underline;
+  }
+
+  .card {
+  background: white;
+  border: 3px;
+  border-radius: 4px;
+  box-shadow: 0, 10px, 30px, rbga(0,0,0.1);
+  padding: 10px;
+  margin: 20px auto;
+  width: 50%;
+
+}
+
+  .text-center {
+  text-align: center;
+}
+
+  .navigation {
+  background: white;
+  width: 50%;
+  border: 3px;
+  border-radius: 4px;
+  box-shadow: 0, 10px, 30px, rbga(0,0,0.1);
+  padding: 10px;
+  margin: 20px auto;
+
+}
+
+  .img-circle {
+  border-radius: 50%;
+}
+
+  .list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
